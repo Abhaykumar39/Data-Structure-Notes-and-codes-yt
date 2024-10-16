@@ -1,0 +1,21 @@
+ LINKED LIST  
+ 
+ A linked list is a linear data structure that includes a series of connected nodes.here each node store the data and the address of the next node.
+
+SINGLY LINKED LIST--
+It is the most common. Each node has the data and pointer to the next node. 
+
+Doubly LINKED LIST--
+  Add a pointer to the  previous node in a doubly linked list.thus we can go in either direction.
+  forward or backward.
+
+  Circular linked list--
+  A circular linked list is a type of linked list in which the first and the last node are also connected to each other to form a circle.
+  There are  basically two types of circularlinked list:
+
+  1. circular singly linked list:
+  Here, the address of the last node  consists of the address of the first node
+
+  2:Circular doubly linked list:
+  here, in addition to the last node storing the address of the first node
+  the first node will also store the address of the last node.

@@ -1,0 +1,21 @@
+void display(struct node *head)
+{
+    struct node *temp = head;
+
+    // Traverse the list from left to right
+    printf("Left to right traversal: ");
+    while (temp != NULL)
+    {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+
+    // Traverse the list from right to left
+    printf("\nRight to left traversal: ");
+    temp = tail;
+    while (temp != NULL)
+    {
+        printf("%d ", temp->data);
+        temp = temp->prev;
+    }
+}

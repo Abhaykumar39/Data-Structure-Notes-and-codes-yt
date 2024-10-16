@@ -1,0 +1,21 @@
+STACK- A stack is a linear data structure in which insertion and deletion are allowed only at the end called top of the stack.
+Exampes - stack of book.
+( any object can be accessed only at the top of the stack).
+
+STACK AS AN ADT( Abstract Data Type)
+When we define stack as an ADT ,then we are only interested in knowing the stack operation from the user point of view.
+
+
+OPERATIN ON STACK-
+PRIMARY OPERATION
+1.PUSH
+2.POP
+3.DISPLAY
+4.PEEK
+
+SECONDARY OPERATION-
+1. top
+2.EMPTY()
+3.FULL ()
+
+NOTE: As a stack is a linear data structure we can implement it using an array or aaa linked list.

@@ -1,0 +1,19 @@
+insert end (struct node *head,int info)
+{
+    struct node *ptr,new*;
+    new =(struct node*)malloc(size of (struct node));
+    new->data = info;
+    new->next=null;
+    ptr=head;
+    if(ptr!=null)
+    {
+        while(ptr->next!=null)
+        ptr=ptr->next;
+        ptr->next=new
+    }
+    else
+    {
+        head =new;
+    }
+    return head;
+}

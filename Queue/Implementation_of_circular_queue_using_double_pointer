@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct circular_list
+{
+    int data;
+    struct circular_list *next;
+}cl;
+void Cenque(cl**,cl**);
+void Dqueue(cl**,cl**);
+void Display(cl**);
+
+int main()
+{
+    cl *r=NULL,*f=NULL; 
+    int ch;
+    do{
+    printf("\n1 ENQUEUE \n2 DEQUEUE  \n3 DISPLAY ");
+    scanf("%d",&ch);
+    switch(ch)
+    {
+        case 1:
+        Cenque(&r,&f);
+        break;
+
+        case 2:
+        Cdeque(&r,&f);
+
+        case 3:
+        display(f);
+        break;
+    }
+    }
+    while(ch<=3);
+}
+void Cenque(cl **r1,cl **f1)
+{
+   cl *p=NULL;
+   int x;
+   p=(cl*)malloc(sizeof(cl*));
+   if(p!=NULL)
+   {
+    
+   }
+}
